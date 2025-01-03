@@ -1,0 +1,96 @@
+/* shop */
+.shop .inner { max-width: 1338px; padding: 0 20px;}
+
+/* shop_visual */
+.shop_visual { background: url("../images/sub/shop_visual.png") no-repeat center center/cover; height: 570px;}
+.shop_visual h2 {  font-family: var(--sub-font); font-size: 6rem;  line-height: 1.2; text-transform: uppercase; color: #fff; text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); padding-top: 300px; }
+.shop_visual h3 {  padding : 30px 0 0 40px; color: #fff; font-size: 4.5rem; font-weight: 700; font-family: var(--sub-font);  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);}
+
+
+/* shop_txt */
+.shop_txt  { padding: 200px 0 154px; text-align: center; color: var(--sub-color);}
+.shop_txt .breadcrumbs { display: flex; justify-content: center; gap: 90px; font-weight: 500; font-size: 2.5rem;}
+.shop_txt .breadcrumbs > li { transition: all 0.5s; position: relative;}
+.shop_txt .breadcrumbs > li > a { display: block; padding: 0 30px;}
+.shop_txt .breadcrumbs > li::before { transition: all 0.5s; opacity: 0; content: ""; width: 7px; height: 7px; background: #C57015; display: block; border-radius: 50%; left: calc(50% - 3px); top: -20px; position: absolute;}
+.shop_txt .breadcrumbs > li:hover { color: #C57015;}
+.shop_txt .breadcrumbs > li:hover::before { opacity: 1; transform: translateY(10px);}
+
+.shop_txt h4 { font-size: 5rem; font-weight: 700;  font-family: var(--sub-font); padding-top: 77px;}
+
+/* shop_pr */
+.shop_pr { padding-bottom: 200px;}
+.shop_pr ul { display: flex; gap: 50px; flex-wrap: wrap; }
+.shop_pr ul li { width: calc(( 100% - 100px) / 3);  margin-bottom: 120px ;}
+
+.shop_pr ul li .pr_img { position: relative;}
+.shop_pr ul li .pr_img img { display: block; width: 100%;}
+.shop_pr ul li .pr_img .pr_img_hover { position: absolute; left: 0; top: 0; opacity: 0; transition: all 0.5s;}
+.shop_pr ul li .pr_img:hover .pr_img_hover { opacity: 1;}
+
+.shop_pr .name { padding: 14px 0 15px; font-size: 2rem; color: var(--sub-color); font-weight: 500;}
+.shop_pr .price { display: flex; gap: 11px; align-items: center; padding-bottom: 10px;}
+.shop_pr .price p:nth-child(1) { color: var(--sub-color) ;}
+.shop_pr .price p:nth-child(2) { color: #766F6F ; font-size: 1.2rem; text-decoration: line-through;}
+.shop_pr span { display: inline-block; background: #FF5F5F; color: #fff; padding: 5px 20px; border-radius: 35px;  font-size: 1.2rem;}
+
+@media (max-width : 1300px) { 
+  .shop_txt  { padding: 150px 0 134px;}
+  .shop_txt .breadcrumbs { gap: 70px;}
+}
+
+@media (max-width : 1200px) { 
+  .shop_pr .name { font-size: 2.3rem; padding: 12px 0 ;}
+}
+
+@media (max-width : 1024px) { 
+  .shop_visual h2 { font-size: 5rem; }
+  .shop_visual h3 { padding : 25px 0 0 35px; font-size: 4rem; }
+
+  .shop_txt  { padding: 120px 0;}
+  .shop_txt .breadcrumbs { gap: 50px; font-size: 2.3rem;}
+  .shop_txt h4 { padding-top: 65px; font-size: 4rem;}
+  
+  .shop_pr { padding-bottom: 120px;}
+  .shop_pr ul { gap: 30px; }
+  .shop_pr ul li { width: calc(( 100% - 30px) / 2); margin-bottom: 100px ;}
+  .shop_pr .name { font-size: 2rem; padding: 10px 0 ;}
+} 
+
+@media (max-width : 768px) {
+  .shop_txt  { padding: 80px 0 60px;}
+  .shop_visual h2 { font-size: 4rem; }
+  .shop_visual h3 { padding : 20px 0 0 30px; font-size: 3rem; }
+  .shop_txt .breadcrumbs { gap: 30px; font-size: 2rem;}
+  .shop_txt h4 { padding-top: 55px; font-size: 3.5rem;}
+
+  .shop_pr { padding-bottom: 80px;}
+  .shop_pr ul { gap: 20px; }
+  .shop_pr ul li { width: calc(( 100% - 20px) / 2); margin-bottom: 80px ; }
+
+  .shop_pr .name { font-size: 1.8rem; padding: 7px 0 ; }
+  .shop_pr span { padding: 3px 15px; font-size: 1rem;}
+}
+
+@media (max-width : 570px) {
+  .shop_visual h2 { font-size: 3.8rem; }
+  .shop_visual h3 { padding : 15px 0 0 25px; font-size: 2.8rem; }
+  .shop_txt .breadcrumbs { gap: 10px; font-size: 1.7rem;}
+  .shop_txt h4 { padding-top: 50px;}
+
+  .shop_pr { padding-bottom: 60px;}
+  .shop_pr ul { gap: 10px; }
+  .shop_pr ul li { width: calc(( 100% - 10px) / 2); margin-bottom: 50px ; }
+  .shop_pr .name { font-size: 1.7rem; padding: 5px 0; }
+  .shop_pr .price p:nth-child(1) { font-size: 1.3rem;}
+  .shop_pr .price p:nth-child(2) { font-size: 1rem;}
+}
+
+@media (max-width : 400px) {
+  .shop_txt .breadcrumbs { gap: 5px; }
+  .shop_txt .breadcrumbs > li > a { padding: 0 25px ;}
+  .shop_txt  { padding: 50px 0 30px;}
+  .shop_visual h2 { font-size: 3.5rem; }
+  .shop_visual h3 { font-size: 2.5rem; }
+  .shop_pr .name { font-size: 1.5rem; padding: 5px 0; }
+}
