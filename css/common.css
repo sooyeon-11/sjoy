@@ -108,7 +108,7 @@ body { overflow-x: hidden; line-height: 1.5; font-size: 1.5rem; font-family: var
   #header nav {padding: 5px;}
   #header .gnb > li > a { font-size: 1.4rem; padding: 10px ; }
   /* #header .util { transform: scale(0.7);} */
-  #header .util { gap: 7px; padding-bottom: 8vw;}
+  #header .util { gap: 10px; padding-bottom: 8vw;}
   #header .util .cart { transform: scale(0.7);  }
   #header .util .btn_search { transform: scale(0.7); }
   #header .util .login { transform: scale(0.7); }
