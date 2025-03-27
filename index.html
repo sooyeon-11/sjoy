@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>쉿조이</title>
+
+  <!-- meta -->
+  <meta name="keywords" content="쉿조이">
+  <meta name="description" content="건강한 식사를 위한 노력, 쉿조이">
+
+  <!-- opengraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="쉿조이">
+  <meta property="og:url" content="https://sooyeon-11.github.io/sjoy/">
+  <meta property="og:image" content="images/common/og_img.png">
+  <meta property="og:description" content="건강한 달콤함, 쉿조이">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/common/favicon.ico" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- common -->
+  <link rel="stylesheet" href="css/common.css">
+
+  <!-- main -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script src="https://wowjs.uk/dist/wow.min.js"></script>
+
+  <script defer src="js/common.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="header_evt">
+        <a href="index.html"><img src="images/common/kakao_icon.png" alt="카카오톡">
+          <p>카톡 친추하고, 2,000원 추가 할인받기</p>
+        </a>
+      </div><!-- //header_evt -->
+
+      <div class="inner">
+        <button class="ham">버튼열기</button>
+        <h1><a href="index.html"><img src="images/common/logo.png" alt="쉿조이 로고"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="sub/brand.html">BRAND</a></li>
+            <li>
+              <a href="sub/shop.html">SHOP</a>
+              <ul class="depth2">
+                <li><a href="sub/shop.html">전체상품</a></li>
+                <li><a href="sub/shop.html">빵</a></li>
+                <li><a href="sub/shop.html">잼</a></li>
+                <li><a href="sub/shop.html">시럽·소스</a></li>
+                <li><a href="sub/shop.html">커피</a></li>
+              </ul><!-- gnb -->
+            </li>
+            <li><a href="sub/review.html">REVIEW</a></li>
+            <li>
+              <a href="sub/community.html">COMMUNITY</a>
+              <ul class="depth2">
+                <li><a href="sub/community.html">공식몰 혜택</a></li>
+                <li><a href="sub/community.html">공지사항</a></li>
+                <li><a href="sub/community.html">FAQ</a></li>
+              </ul><!-- gnb -->
+            </li>
+            <li><a href="sub/event.html">EVENT</a></li>
+          </ul><!-- gnb -->
+
+          <div class="dim"></div>
+          <div class="mgnb_wrap">
+            <div class="login">
+              <a href="#" class="txt">로그인이 필요합니다.</a>
+              <a href="#" class="login_btn">로그인</a>
+            </div>
+
+            <ul class="mgnb">
+              <li><a href="sub/brand.html">BRAND</a></li>
+              <li>
+                <a href="sub/shop.html">SHOP</a>
+                <ul class="mdepth2">
+                  <li><a href="sub/shop.html">전체상품</a></li>
+                  <li><a href="sub/shop.html">빵</a></li>
+                  <li><a href="sub/shop.html">잼</a></li>
+                  <li><a href="sub/shop.html">시럽·소스</a></li>
+                  <li><a href="sub/shop.html">커피</a></li>
+                </ul><!-- mgnb -->
+              </li>
+              <li><a href="sub/review.html">REVIEW</a></li>
+              <li>
+                <a href="sub/community.html">COMMUNITY</a>
+                <ul class="mdepth2">
+                  <li><a href="sub/community.html">공식몰 혜택</a></li>
+                  <li><a href="sub/community.html">공지사항</a></li>
+                  <li><a href="sub/community.html">FAQ</a></li>
+                </ul><!-- mgnb -->
+              </li>
+              <li><a href="sub/event.html">EVENT</a></li>
+            </ul><!-- mgnb -->
+            <button class="mgnb_close">메뉴 닫기</button>
+          </div><!-- //mgnb_wrap -->
+
+
+        </nav>
+
+        <div class="util">
+          <a href="#" class="cart"><img src="images/common/cart_icon.png" alt="장바구니"></a>
+          <button class="btn_search"><img src="images/common/search_icon.png" alt="검색창"></button>
+          <a href="#" class="login">로그인</a>
+        </div><!-- //util -->
+
+      </div><!-- //inner -->
+
+      <div class="search">
+        <div class="search_box">
+          <form action="#">
+            <div class="input_box">
+              <input type="text" placeholder="검색">
+              <input type="submit" value="검색">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- <div class="search">
+      <div class="search_box">
+        <form action="#">
+          <div class="input_box">
+            <input type="text" placeholder="검색">
+            <input type="submit" value="검색">
+          </div>
+        </form>
+      </div>
+      <button class="search_close">검색창 닫기</button>
+    </div> -->
+    <!-- //search -->
+
+    <main id="main">
+      <section class="visual">
+        <div class="swiper visual_list">
+          <ul class="swiper-wrapper">
+
+            <li class="swiper-slide visual1">
+              <div class="visual_txt">
+                <dl>
+                  <dt>보존제 방부제를 사용하지 않은<br>쉿조이 통밀빵</dt>
+                  <dd>영양을 가득 담은 통밀 원곡 빵<br>건강한 식사로 하루를 시작해보세요.</dd>
+                  <a href="sub/shop.html" class="btn_buy">구매하러가기</a>
+                </dl>
+              </div><!-- //visual_txt -->
+            </li><!-- //swiper-slide -->
+
+            <li class="swiper-slide visual2">
+              <div class="visual_txt">
+                <dl>
+                  <dt>설탕, 우유, 계란을 사용하지 않은<br>쉿조이 샤워도우</dt>
+                  <dd>숙성한 르방으로 소화가 편한 샤워도우<br>발효빵으로 상쾌한 식사를 시작해보세요.</dd>
+                  <a href="sub/shop.html" class="btn_buy">구매하러가기</a>
+                </dl>
+              </div><!-- //visual_txt -->
+            </li><!-- //swiper-slide -->
+
+            <li class="swiper-slide visual3">
+              <div class="visual_txt">
+                <dl>
+                  <dt>설탕을 사용하지 않고 대체당을 이용한<br>쉿조이 바닐라라떼</dt>
+                  <dd>대체당을 사용해 혈당 걱정 없이 달달하게<br>식사를 마무리 해보세요.</dd>
+                  <a href="sub/shop.html" class="btn_buy">구매하러가기</a>
+                </dl>
+              </div><!-- //visual_txt -->
+            </li><!-- //swiper-slide -->
+
+            <li class="swiper-slide visual4">
+              <div class="visual_txt">
+                <dl>
+                  <dt>보존제 방부제를 사용하지 않은<br>쉿조이 통밀 원곡 식빵</dt>
+                  <dd>원곡으로 영양과 식감을 담은 통밀 원곡 식빵<br>식감과 맛으로 즐거운 하루를 시작해보세요.</dd>
+                  <a href="sub/shop.html" class="btn_buy">구매하러가기</a>
+                </dl>
+              </div><!-- //visual_txt -->
+            </li><!-- //swiper-slide -->
+
+            <li class="swiper-slide visual5">
+              <div class="visual_txt">
+                <dl>
+                  <dt>보존제 방부제 설탕을 사용하지 않은<br>쉿조이 저칼로리 과일잼</dt>
+                  <dd>과일에 들어간 당 외에 다른 첨가물을 넣지 않았습니다.<br>건강하게 만들어진 잼으로 달달한 하루를 시작해보세요.</dd>
+                  <a href="sub/shop.html" class="btn_buy">구매하러가기</a>
+                </dl>
+              </div><!-- //visual_txt -->
+            </li><!-- //swiper-slide -->
+
+          </ul><!-- //swiper-wrapper -->
+
+          <div class="swiper-pagination"></div>
+        </div><!-- //swiper -->
+      </section><!-- //visual -->
+
+      <section class="shop">
+
+        <div class="wow animate__animated animate__fadeIn shop_txt">
+          <div class="inner">
+            <h2>SHOP best</h2>
+            <p>쉿조이의 베스트 상품을 만나보세요.</p>
+            <a href="sub/shop.html" class="btn_buy">전체상품</a>
+          </div><!-- //inner -->
+        </div><!-- //shop_txt -->
+
+        <div class="wow animate__animated animate__fadeIn bread" data-wow-delay="0.2s">
+          <div class="inner">
+            <h3>빵</h3>
+            <div class="swiper bread_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="bread_img"><img src="images/main/bread_01.png" alt="bread_01">
+                      <div class="bread_hover"><img src="images/main/bread_01_hover.png" alt="bread01_hover"></div>
+                    </div>
+                  </a>
+                  <p class="name">어메이징 통밀 잡곡 식빵(330g)</p>
+                  <div class="price">
+                    <p>5,850원</p>
+                    <p>6,500원</p>
+                  </div>
+                </li><!-- //swiper-slide -->
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="bread_img"><img src="images/main/bread_02.png" alt="bread_02">
+                      <div class="bread_hover"><img src="images/main/bread_02_hover.png" alt="bread02_hover"></div>
+                    </div>
+                  </a>
+                  <p class="name">통밀 원곡 식빵(330g)</p>
+                  <div class="price">
+                    <p>4,500원</p>
+                    <p>5,000원</p>
+                  </div>
+
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="bread_img"><img src="images/main/bread_03.png" alt="bread_03">
+                      <div class="bread_hover"><img src="images/main/bread_03_hover.png" alt="bread01_hover"></div>
+                    </div>
+                  </a>
+                  <p class="name">통밀 원곡 베이글</p>
+                  <div class="price">
+                    <p>2,790원</p>
+                    <p>3,100원</p>
+                  </div>
+
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="bread_img"><img src="images/main/bread_04.png" alt="bread_04">
+                      <div class="bread_hover"><img src="images/main/bread_04_hover.png" alt="bread04_hover"></div>
+                    </div>
+                  </a>
+                  <p class="name">통밀바게트(320g, 2개)</p>
+                  <div class="price">
+                    <p>7,110원</p>
+                    <p>7,900원</p>
+                  </div>
+                </li>
+
+              </ul><!-- //swiper-wrapper -->
+            </div><!-- //swiper -->
+          </div><!-- //inner -->
+        </div><!-- //bread -->
+
+        <div class="wow animate__animated animate__fadeIn jam" data-wow-delay="0.2s">
+          <div class="inner">
+            <h3>잼</h3>
+          </div>
+          <div class="swiper jam_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide slide1">
+                <a href="sub/shop.html">
+                  <div class="jam_img01"><img src="images/main/jam_01.png" alt="jam_01">
+                    <div class="jam_hover"><img src="images/main/jam_01_hover.png" alt="jam_01_hover">
+                    </div>
+                  </div>
+                </a>
+                <div class="jam_txt01">
+                  <div class="txt1">
+                    <p class="name">저칼로리 저당 딸기잼(320g)</p>
+                    <div class="price">
+                      <p>12,600원</p>
+                      <p>14,000원</p>
+                    </div>
+                  </div>
+                  <div class="line"></div>
+                  <div class="txt2">
+                    <p>딸기의 탱탱함과 달콤함이 살아있는<br>
+                      프리미엄 저당 저칼로리 딸기잼🍓<br>
+                      마음껏 먹어도 걱정없는 '쉿조이 딸기잼' 을 Pick해보세요!</p>
+                  </div>
+                </div><!-- //jam_txt -->
+
+              </li>
+
+              <li class="swiper-slide slide2">
+                <div class="jam_txt02">
+                  <p class="name">저칼로리 블루베리 잼 + 저칼로리 애플시나몬 잼</p>
+                  <div class="price">
+                    <p>23,850원</p>
+                    <p>26,500원</p>
+                  </div>
+                </div><!-- //jam_txt02 -->
+
+                <a href="sub/shop.html">
+                  <div class="jam_img02"><img src="images/main/jam_02.png" alt="jam_02">
+                    <div class="jam_hover"><img src="images/main/jam_02_hover.png" alt="jam_02_hover">
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- //swiper-wrapper -->
+          </div><!-- //swiper -->
+        </div><!-- //jam -->
+
+        <div class="wow animate__animated animate__fadeIn syrup" data-wow-delay="0.2s">
+          <div class="inner">
+            <h3>시럽·소스</h3>
+            <div class="swiper syrup_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="syrup_img"><img src="images/main/syrup_01.png" alt="syrup_01">
+                      <div class="syrup_hover"><img src="images/main/syrup_01_hover.png" alt="syrup_01"></div>
+                    </div>
+                  </a>
+                  <p class="name">알룰로스(500g)</p>
+                  <div class="price">
+                    <p>9,440원</p>
+                    <p>11,800원</p>
+                  </div>
+
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="syrup_img"><img src="images/main/syrup_02.png" alt="syrup_02">
+                      <div class="syrup_hover"><img src="images/main/syrup_02_hover.png" alt="syrup_02"></div>
+                    </div>
+                  </a>
+                  <p class="name">저당 케찹(300g)</p>
+                  <div class="price">
+                    <p>4,410원</p>
+                    <p>4,900원</p>
+                  </div>
+
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="syrup_img"><img src="images/main/syrup_03.png" alt="syrup_03">
+                      <div class="syrup_hover"><img src="images/main/syrup_03_hover.png" alt="syrup_03"></div>
+                    </div>
+                  </a>
+                  <p class="name">저당 숯불 매콤 소스(300g)</p>
+                  <div class="price">
+                    <p>4,950원</p>
+                    <p>5,500원</p>
+                  </div>
+
+                </li>
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="syrup_img"><img src="images/main/syrup_04.png" alt="syrup_04">
+                      <div class="syrup_hover"><img src="images/main/syrup_04_hover.png" alt="syrup_04"></div>
+                    </div>
+                  </a>
+                  <p class="name">저당 바질 갈릭 소스(300g)</p>
+                  <div class="price">
+                    <p>5,400원</p>
+                    <p>6,000원</p>
+                  </div>
+
+                </li>
+              </ul><!-- swiper-wrapper -->
+            </div><!-- //syrup_list -->
+          </div><!-- //inner -->
+        </div><!-- //syrup -->
+
+        <div class="wow animate__animated animate__fadeIn coffee" data-wow-delay="0.2s">
+          <div class="inner">
+            <h3>커피</h3>
+            <div class="swiper coffee_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="coffee_img"><img src="images/main/coffee_01.png" alt="coffee_01">
+                      <div class="coffee_hover"><img src="images/main/coffee_01_hover.png" alt="coffee_01_hover"></div>
+                    </div>
+                  </a>
+                  <div class="coffee_txt">
+                    <p class="name">다이어트 아메리카노 커피(30포)</p>
+                    <p class="txt">- 마시는 다이어트 가르시니아 커피 -</p>
+                    <div class="price">
+                      <p>22,990원</p>
+                      <p>29,980원</p>
+                    </div>
+                  </div><!-- //coffee_txt -->
+                </li><!-- //swiper-slide -->
+
+                <li class="swiper-slide">
+                  <a href="sub/shop.html">
+                    <div class="coffee_img"><img src="images/main/coffee_02.png" alt="coffee_02">
+                      <div class="coffee_hover"><img src="images/main/coffee_02_hover.png" alt="coffee_02_hover"></div>
+                    </div>
+                  </a>
+                  <div class="coffee_txt">
+                    <p class="name">저당 라떼(10개)</p>
+                    <p class="txt">- 저당 바닐라 라떼 | 저당 카페모카 -</p>
+                    <div class="price">
+                      <p>23,700원~</p>
+                      <p>24,800원</p>
+                    </div>
+                  </div><!-- //coffee_txt -->
+
+                </li><!-- //swiper-slide -->
+              </ul><!-- //swiper-wrapper -->
+            </div><!-- //coffee_list -->
+          </div><!-- //inner -->
+
+        </div><!-- //coffee -->
+
+      </section><!-- //shop -->
+
+      <section class="wow animate__animated animate__fadeIn brand" data-wow-delay="0.2s">
+        <h2>BRAND</h2>
+        <div class=" brand_img"><img src="images/main/brand.png" alt="brand">
+          <div class="brand_m_img"><img src="images/main/brand_m.png" alt="brand_m"></div>
+          <p class="brand_txt">건강을 위한 정직한 선택</p>
+          <p class="hover_txt">쉿조이는 좋은 원재료를 이용해<br>
+            설탕 걱정 없는 <span>저당 식품</span>을 만들어서<br>
+            다이어트나 식단관리 건강관리 하시는 분들이<br>
+            만족감 있는 <span>건강한 식사</span>를 위한 브랜드 입니다.</p>
+        </div>
+        <a href="sub/brand.html" class="btn_more">VIEW</a>
+      </section><!-- //brand -->
+
+      <section class="review">
+        <div class="inner">
+          <h2>REVIEW</h2>
+          <div class="swiper review_list">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <a href="sub/review.html"><img src="images/main/review_01.png" alt="reivew01">
+                  <dl>
+                    <dt>통밀 원곡 모닝빵 (560g)</dt>
+                    <dd class="score">평점 4.9</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star9_icon.png" alt="별점"></dd>
+                    <dd class="txt">통밀빵 전자레인지에 돌려 먹어도 너무 촉촉하니 맛있어요 ! 에프에 160도에서 앞뒤로 구워주면 겉은 바삭하고 속은 쫄깃해서 아주굳입니다
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_02.png" alt="reivew02">
+                  <dl>
+                    <dt>통밀 원곡 식빵 (330g)</dt>
+                    <dd class="score">평점 4.8</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star8_icon.png" alt="별점"></dd>
+                    <dd class="txt">통밀식빵 에어프라이어에 살짝 구워서 위에 당근 라페 올려서 먹었는데 너무 맛있어요... 이게 진짜 다이어트죠 식사빵으로 통밀 식빵최고입니당
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_03.png" alt="reivew03">
+                  <dl>
+                    <dt> 100% 쌀 치아바타 글루텐프리</dt>
+                    <dd class="score">평점 4.9</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star9_icon.png" alt="별점"></dd>
+                    <dd class="txt">100% 쌀로 만들어진 치아바타라서 그런지 소화에 불편함이 없어서 너무 좋았어요 ㅎㅎ 간단하게 야채랑 치즈 햄 넣어서 샌드위치로 먹었습니다
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_04.png" alt="reivew04">
+                  <dl>
+                    <dt>통밀 원곡 식빵 (330g)</dt>
+                    <dd class="score">평점 4.7</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star7_icon.png" alt="별점"></dd>
+                    <dd class="txt">통밀 식빵이라 다이어트 식단하면서 먹기에 좋은 것 같아요 ㅎㅎ 100% 자연치즈랑 계란이랑 같이해서 샌드위치 하니 고소하고 맛있네요</dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_05.png" alt="reivew05">
+                  <dl>
+                    <dt>통밀 원곡 식빵 (330g)</dt>
+                    <dd class="score">평점 4.9</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star9_icon.png" alt="별점"></dd>
+                    <dd class="txt">저는 아침에 밥이 잘 안들어가서 통밀 식빵이랑 요거트에 좋아하는 가루 넣어서 크림처럼 발라서 먹는데 속도 편하고 화장실도 잘가요 ~</dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_06.png" alt="reivew06">
+                  <dl>
+                    <dt>통밀 호기빵 (65g, 5개입)</dt>
+                    <dd class="score">평점 4.6</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star6_icon.png" alt="별점"></dd>
+                    <dd class="txt">이 제품 전자레인지에 10초씩 끊어서 30초 돌리고 에프 180도에 4분씩 앞뒤로 구워주면 겉은 엄청 바삭하고 안은 엄청 촉촉해요.. 짱 맛도뤼
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_07.png" alt="reivew07">
+                  <dl>
+                    <dt>통밀 원곡 식빵 (330g)</dt>
+                    <dd class="score">평점 4.8</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star8_icon.png" alt="별점"></dd>
+                    <dd class="txt">빵 한조각이랑 닭가슴살 야채, 단백질 쉐이크 등 다양하게 조합해서 먹어도 맛있네요 ㅎㅎ 빵이 고소해서 잼이나 소스 없이도 맛있어요 !
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+              <li class="swiper-slide">
+                <a href="sub/review.html">
+                  <img src="images/main/review_08.png" alt="reivew08">
+                  <dl>
+                    <dt>통밀 호기빵 (65g, 5개입)</dt>
+                    <dd class="score">평점 4.7</dd>
+                    <dd class="bar"></dd>
+                    <dd class="star"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star_icon.png" alt="별점"><img src="images/main/star_icon.png"
+                        alt="별점"><img src="images/main/star7_icon.png" alt="별점"></dd>
+                    <dd class="txt">빵안에 곡물이 들어있어서 먹으면서 식감도 좋고 고소한 맛이 강해서 좋아요 ! 식사빵으로 먹기도 좋고 디저트 빵으로 먹기도 좋아요 ㅎㅎ 매번 구매해서
+                      쟁여두고 먹습니다 !
+                    </dd>
+                  </dl>
+                </a>
+              </li>
+
+            </ul><!-- //slide-wrapper -->
+
+            <div class="control">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div><!-- //control -->
+
+            <div class="swiper-pagination"></div>
+
+          </div><!-- //swiper review_list -->
+          <p>＊ 사진리뷰 500P, 텍스트리뷰 200P 적립금 지급 ＊</p>
+        </div><!-- //inner -->
+      </section><!-- //reivew -->
+
+      <section class="community">
+        <div class="wow animate__animated animate__fadeIn inner" data-wow-delay="0.2s">
+          <h2>COMMUNITY</h2>
+          <div class="community_box">
+            <a href="sub/community.html">
+              <img src="images/main/cm_img1.png" alt="멤버십등급혜택아이콘">
+              <p>멤버십 등급혜택</p>
+            </a>
+
+            <a href="sub/community.html">
+              <img src="images/main/cm_img2.png" alt="멤버십등급혜택아이콘">
+              <p>공지사항</p>
+            </a>
+
+            <a href="sub/community.html">
+              <img src="images/main/cm_img3.png" alt="멤버십등급혜택아이콘">
+              <p>FAQ</p>
+            </a>
+
+          </div><!-- //btn -->
+        </div><!-- //inner -->
+      </section><!-- //community -->
+
+      <section class="banner">
+        <div class="insta_event">
+          <a href="sub/event.html"><img src="images/main/event_01.png" alt="event_01"></a>
+        </div>
+        <div class="new_event">
+          <a href="sub/event.html"><img src="images/main/event_02.png" alt="event_02"></a>
+        </div>
+      </section><!-- //banner -->
+
+      <section class="cs">
+        <div class="wow animate__animated animate__fadeIn inner" data-wow-delay="0.2s">
+          <div class="cs_top">
+            <div class="cs_left">
+              <img src="images/main/icon_car.png" alt="트럭">
+              <div class="cs_txt">
+                <p>오늘 주문하면 내일 도착해요.</p>
+                <span>평일 오후 3시 이전 결제 완료시 당일 출고 해드립니다.</span>
+              </div><!-- //cs_txt -->
+            </div><!-- //cs_left -->
+
+            <div class="cs_right">
+              <img src="images/main/icon_haccp.png" alt="해썹">
+              <div class="cs_txt">
+                <p>HACCP 인증마크를 확인하세요.</p>
+                <span>쉿조이 전제품 식약처 품질 평가를 완료했어요.</span>
+              </div><!-- //cs_txt -->
+            </div><!-- //cs_left -->
+          </div><!-- //cs_top -->
+
+          <div class="cs_bottom">
+            <img src="images/main/icon_tree.png" alt="나무">
+            <div class="cs_txt">
+              <p>신선한 제품을 받아보세요.</p>
+              <span>모든 제품은 최근에 제조한 상품으로 발송해드립니다.</span>
+            </div>
+          </div>
+
+        </div><!-- //inner -->
+      </section><!-- //cs -->
+
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_top">
+          <div class="footer_logo">
+            <img src="images/common/footer_logo.png" alt="로고">
+          </div><!-- //footer_logo -->
+
+          <div class="footer_txt">
+            <div class="number">
+              <p>고객만족팀 051-7297-5315</p>
+              <p>1:1 채팅상담</p>
+              <span>월-금 10:00~17:00<br>
+                점심시간 12:00~14:00<br>
+                주말 및 공휴일 휴무</span>
+            </div><!-- //number -->
+
+            <div class="sns">
+              <p class="mail">제휴문의 marketing@sjoy.co</p>
+              <a href="https://www.instagram.com/" class="insta">
+                <p>인스타그램</p>
+              </a>
+              <a href="#" class="kakao">
+                <p>카카오톡채널</p>
+              </a>
+            </div><!-- //sns -->
+          </div><!-- //footer_txt -->
+
+          <div class="info">
+            <p><a href="#">이용약관</a></p>
+            <p><a href="#">개인정보처리방침</a></p>
+          </div>
+        </div><!-- //footer_top -->
+
+        <div class="footer_gnb">
+          <ul class="gnb">
+            <li><a href="sub/brand.html">BRAND</a></li>
+            <li class="gnb_bar"></li>
+            <li><a href="sub/shop.html">SHOP</a></li>
+            <li class="gnb_bar"></li>
+            <li><a href="sub/review.html">REVIEW</a></li>
+            <li class="gnb_bar"></li>
+            <li><a href="sub/community.html">COMMUNITY</a></li>
+            <li class="gnb_bar"></li>
+            <li><a href="sub/event.html">EVENT</a></li>
+          </ul><!-- gnb -->
+        </div><!-- //footer_gnbs -->
+      </div><!-- //inner -->
+
+      <div class="footer_bottom">
+        <div class="inner">
+          <div class="bottom_txt">법인명 (주)쉿조이 컴퍼니
+            <div class="bt_bar"></div> 사업자등록번호 000-00-0000 <a href="#">[사업자정보확인]</a>
+            <div class="bt_bar"></div>통신판매업신고번호 0000-부산서면-00000<div class="bt_bar"></div>대표이사 윤수연<div class="bt_bar">
+            </div>개인정보책임자 윤시연
+          </div>
+
+          <div class="bottom_txt">
+            <address>본사주소<div class="bt_bar"></div>부산광역시 부산진구 중앙대로 708, 4층(부전동, 부산파이낸스센터)<div class="bt_bar"></div>
+            </address>호스팅 제공자 (주)부산 IT<div class="bt_bar"></div>
+            <div class="copy">&copy; COPYRIGHT 2025 @SJOY COMPANY </div>
+          </div>
+
+        </div><!-- //inner -->
+      </div><!-- //footer_bottom -->
+    </footer>
+    <a href="#" class="gotop">
+      <img src="images/common/gotop.png" alt="맨 위로 가기">
+    </a>
+  </div>
+
+</body>
+
+</html>
